@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'haml'
 
-get '/?' do
+get '/' do
   ps = []
   params.each { |key, value| ps << value.to_s} 
   ur = ps.join  
