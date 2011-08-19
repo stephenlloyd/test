@@ -10,6 +10,30 @@ get '/' do
   else
     haml :home
   end
+end
+  
+  get '/index_ebay' do
+    haml :ebay
+  end
+  
+  get '/index_amazon' do
+    haml :amazon
+  end
+  
+  get '/index_info' do
+ haml :products
+end
 
-end 
+get '/index_rrfc' do
+  haml :resell
+end
+
+get '/index_youtube' do
+  haml :youtube
+end
+
+get '/index_rss' do 
+  haml :news
+end
+
 
