@@ -36,4 +36,8 @@ get '/index_rss' do
   haml :news
 end
 
+get '/ebaypartnernetworkactivation.txt' do
+  haml :test
+end
+
 
