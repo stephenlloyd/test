@@ -40,4 +40,8 @@ get '/ebaypartnernetworkactivation.txt' do
   haml :test
 end
 
+get '/articles' do
+  haml :articles
+end
+
 
